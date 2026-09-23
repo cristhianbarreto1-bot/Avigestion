@@ -1,0 +1,54 @@
+{
+  "name": "AviGestión",
+  "short_name": "AviGestión",
+  "description": "Gestión avícola profesional para supervisores y gerentes",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#070d0a",
+  "theme_color": "#22c55e",
+  "orientation": "portrait-primary",
+  "categories": ["productivity", "business", "agriculture"],
+  "lang": "es-AR",
+  "icons": [
+    { "src": "/icons/icon-72.png",   "sizes": "72x72",   "type": "image/png", "purpose": "maskable any" },
+    { "src": "/icons/icon-96.png",   "sizes": "96x96",   "type": "image/png", "purpose": "maskable any" },
+    { "src": "/icons/icon-128.png",  "sizes": "128x128", "type": "image/png", "purpose": "maskable any" },
+    { "src": "/icons/icon-144.png",  "sizes": "144x144", "type": "image/png", "purpose": "maskable any" },
+    { "src": "/icons/icon-152.png",  "sizes": "152x152", "type": "image/png", "purpose": "maskable any" },
+    { "src": "/icons/icon-192.png",  "sizes": "192x192", "type": "image/png", "purpose": "maskable any" },
+    { "src": "/icons/icon-384.png",  "sizes": "384x384", "type": "image/png", "purpose": "maskable any" },
+    { "src": "/icons/icon-512.png",  "sizes": "512x512", "type": "image/png", "purpose": "maskable any" }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/inspection-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Inspección de galpón desde el celular"
+    },
+    {
+      "src": "/screenshots/dashboard-desktop.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Dashboard gerencial en tiempo real"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nueva inspección",
+      "short_name": "Inspeccionar",
+      "description": "Iniciar una inspección de galpón",
+      "url": "/supervisor",
+      "icons": [{ "src": "/icons/shortcut-inspect.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Ver alertas",
+      "short_name": "Alertas",
+      "description": "Ver alertas activas",
+      "url": "/dashboard",
+      "icons": [{ "src": "/icons/shortcut-alerts.png", "sizes": "96x96" }]
+    }
+  ]
+}
